@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.min.css"/>
+		<script src="/js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="container">
+		<table class="table table-bordered">
+			<thead>
+				<th>name</th>
+				<th>age</th>
+			</thead>
+			<tbody>
+				{{#each arr}}
+				<tr>
+					{{#if ageLimt}}
+						<td>
+							1
+						</td>
+					{{/if}}
+					
+					<td>{{age}}</td>
+				</tr>
+					
+				{{/each}}
+			</tbody>
+		</table>
+		</div>
+	</body>
+</html>
